@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bmi_res_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hodnota BMI = " />
+
+    <TextView
+        android:id="@+id/bmi_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/btn_cap_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture foto" />
+
+    <ImageView
+        android:id="@+id/cap_foto_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share" />
+
+</LinearLayout>
